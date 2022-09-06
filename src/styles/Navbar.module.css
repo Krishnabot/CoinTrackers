@@ -1,0 +1,91 @@
+@font-face { font-family: Ninjafont; src: url('/src/assets/fonts/njnaruto.ttf'); }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 1.75rem 4.75rem;
+}
+
+.header > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.title {
+  margin: 0 1.5rem;
+  font-size: 2rem;
+  font-family: Ninjafont, sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.query {
+  width: 100%;
+  border: 1px solid rgb(255, 185, 54);
+  border-right: none;
+  padding: 5px;
+  outline: none;
+  color: #c7eddc;
+  height: 100%;
+}
+
+.query::placeholder {
+  font-family: Ninjafont, sans-serif;
+  font-size: 0.8em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.2em;
+  color: rgb(251, 183, 56);
+}
+
+.query:focus {
+  color: #037989;
+}
+
+.searchbtn {
+  width: 40px;
+  border: 1px solid #00b4cc;
+  background: rgb(255, 166, 0);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navLink_wrap {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navLink {
+  margin: 1.125rem 1.5rem;
+  font-family: Ninjafont, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  color: #343534;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  text-decoration: underline #00f;
+}
