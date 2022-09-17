@@ -1,0 +1,631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coins test snapshot for coins 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="coins-info"
+      >
+        <div
+          class="coin-text"
+        >
+          <div
+            class="coin-name"
+          >
+            <h2>
+              Coin Name =
+               
+              Ethereum
+            </h2>
+            <span>
+              ( Coin Symbol =
+              ETH
+              )
+            </span>
+          </div>
+          <div
+            class="coin-health"
+          >
+            <span
+              class="price"
+            >
+              Price = $
+               
+              USD
+            </span>
+            <span
+              class="coin-rank"
+            >
+              Rank =
+              2
+              <i>
+                <img
+                  alt=""
+                  src="stats2.png"
+                />
+              </i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="stats-container"
+        >
+          <div
+            class="stats-title"
+          >
+            Overall Coin Performance
+          </div>
+          <div
+            class="stats-wrap"
+          >
+            <div
+              class="stat-item"
+            >
+              <span>
+                Change (24h)
+              </span>
+              -1.48
+               
+              %
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Change (1h)
+              </span>
+              0.24
+              %
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Change (7d)
+              </span>
+              -17.00
+              %
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                BTC
+              </span>
+              0.071292
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Market Cap $
+              </span>
+              174627657078.98
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Volume (24h)
+              </span>
+              12027472426.885479
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Volume (24h A)
+              </span>
+              17284898737.62316
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Coin Supply
+              </span>
+              1122204013.00
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="coins-info"
+    >
+      <div
+        class="coin-text"
+      >
+        <div
+          class="coin-name"
+        >
+          <h2>
+            Coin Name =
+             
+            Ethereum
+          </h2>
+          <span>
+            ( Coin Symbol =
+            ETH
+            )
+          </span>
+        </div>
+        <div
+          class="coin-health"
+        >
+          <span
+            class="price"
+          >
+            Price = $
+             
+            USD
+          </span>
+          <span
+            class="coin-rank"
+          >
+            Rank =
+            2
+            <i>
+              <img
+                alt=""
+                src="stats2.png"
+              />
+            </i>
+          </span>
+        </div>
+      </div>
+      <div
+        class="stats-container"
+      >
+        <div
+          class="stats-title"
+        >
+          Overall Coin Performance
+        </div>
+        <div
+          class="stats-wrap"
+        >
+          <div
+            class="stat-item"
+          >
+            <span>
+              Change (24h)
+            </span>
+            -1.48
+             
+            %
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Change (1h)
+            </span>
+            0.24
+            %
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Change (7d)
+            </span>
+            -17.00
+            %
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              BTC
+            </span>
+            0.071292
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Market Cap $
+            </span>
+            174627657078.98
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Volume (24h)
+            </span>
+            12027472426.885479
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Volume (24h A)
+            </span>
+            17284898737.62316
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Coin Supply
+            </span>
+            1122204013.00
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test for coins whether it matches snapshots or not 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="coins-info"
+      >
+        <div
+          class="coin-text"
+        >
+          <div
+            class="coin-name"
+          >
+            <h2>
+              Coin Name =
+               
+              Ethereum
+            </h2>
+            <span>
+              ( Coin Symbol =
+              ETH
+              )
+            </span>
+          </div>
+          <div
+            class="coin-health"
+          >
+            <span
+              class="price"
+            >
+              Price = $
+               
+              USD
+            </span>
+            <span
+              class="coin-rank"
+            >
+              Rank =
+              2
+              <i>
+                <img
+                  alt=""
+                  src="stats2.png"
+                />
+              </i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="stats-container"
+        >
+          <div
+            class="stats-title"
+          >
+            Overall Coin Performance
+          </div>
+          <div
+            class="stats-wrap"
+          >
+            <div
+              class="stat-item"
+            >
+              <span>
+                Change (24h)
+              </span>
+              -1.48
+               
+              %
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Change (1h)
+              </span>
+              0.24
+              %
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Change (7d)
+              </span>
+              -17.00
+              %
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                BTC
+              </span>
+              0.071292
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Market Cap $
+              </span>
+              174627657078.98
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Volume (24h)
+              </span>
+              12027472426.885479
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Volume (24h A)
+              </span>
+              17284898737.62316
+            </div>
+            <div
+              class="stat-item"
+            >
+              <span>
+                Coin Supply
+              </span>
+              1122204013.00
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="coins-info"
+    >
+      <div
+        class="coin-text"
+      >
+        <div
+          class="coin-name"
+        >
+          <h2>
+            Coin Name =
+             
+            Ethereum
+          </h2>
+          <span>
+            ( Coin Symbol =
+            ETH
+            )
+          </span>
+        </div>
+        <div
+          class="coin-health"
+        >
+          <span
+            class="price"
+          >
+            Price = $
+             
+            USD
+          </span>
+          <span
+            class="coin-rank"
+          >
+            Rank =
+            2
+            <i>
+              <img
+                alt=""
+                src="stats2.png"
+              />
+            </i>
+          </span>
+        </div>
+      </div>
+      <div
+        class="stats-container"
+      >
+        <div
+          class="stats-title"
+        >
+          Overall Coin Performance
+        </div>
+        <div
+          class="stats-wrap"
+        >
+          <div
+            class="stat-item"
+          >
+            <span>
+              Change (24h)
+            </span>
+            -1.48
+             
+            %
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Change (1h)
+            </span>
+            0.24
+            %
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Change (7d)
+            </span>
+            -17.00
+            %
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              BTC
+            </span>
+            0.071292
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Market Cap $
+            </span>
+            174627657078.98
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Volume (24h)
+            </span>
+            12027472426.885479
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Volume (24h A)
+            </span>
+            17284898737.62316
+          </div>
+          <div
+            class="stat-item"
+          >
+            <span>
+              Coin Supply
+            </span>
+            1122204013.00
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
