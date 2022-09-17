@@ -16,7 +16,7 @@ Built with React and Redux,åç Coin Tracker provides real time market-based inf
 ![coin-snapshot-2](https://user-images.githubusercontent.com/40334904/190860076-c49ca487-5f18-4141-92c2-e19728856927.png)
 
 # Live Description
-[loom Video](https://www.loom.com/share/d1c5530fdf164a588cd21c3812b79e38)
+[loom Video](https://www.loom.com/share/a7b77ce468bc4434b592da66aef71161)
 
 ## Live Demo 
 
