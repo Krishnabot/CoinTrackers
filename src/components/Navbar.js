@@ -1,50 +1,25 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import styles from '../styles/Navbar.module.css';
-import naruto from '../assets/image/naruto.png';
+import { NavLink, useLocation } from 'react-router-dom';
+import '../CSS/Navbar.css';
 
 const Navbar = () => {
-  const navLinks = [
-    {
-      navId: 1,
-      path: '/Characters',
-      text: 'Characters',
-    },
-  ];
+  const location = useLocation();
+
   return (
-    <header className={styles.header}>
-      <div>
-        <img src={naruto} className={styles.logo} alt="naruto_logo" />
-        <p className={styles.title}>The Most Legendry Ninja</p>
+    <nav id="navbar">
+      <div className="brand">
+        <div id="app-logo" />
+        <h1 className="app-name">CoinTracker</h1>
       </div>
-      <nav className={styles.nav}>
-        <ul className={styles.navLink_wrap}>
-          <li className={styles.formwrap}>
-            <form className={styles.form}>
-              <input
-                type="search"
-                className={styles.query}
-                name="input"
-                placeholder="Search Ninjas"
-              />
-              <button type="button" className={styles.searchbtn}>
-                <FontAwesomeIcon icon={faSearch} />
-                {' '}
-              </button>
-            </form>
-          </li>
-          {navLinks.map((link) => (
-            <li key={link.navId}>
-              <NavLink className={styles.navLink} to={link.path}>
-                {link.text}
-              </NavLink>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+
+      <ul id="nav-links">
+        <li>
+          <NavLink to="/" id="home">
+            {location.pathname === '/' ? 'Coins' : 'Back'}
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

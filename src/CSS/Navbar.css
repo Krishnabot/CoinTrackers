@@ -1,0 +1,46 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 1rem 0.5rem;
+}
+
+.app-name {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+#nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+#nav-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+#app-logo {
+  background-image: url('../assets/image/coin_logo.png');
+  background-size: cover;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brand {
+  display: flex;
+}
+
+@media all and (min-width: 768px) {
+  .app-name {
+    font-size: 1.5rem;
+  }
+
+  #nav-links li a {
+    font-size: 1.2rem;
+  }
+}
