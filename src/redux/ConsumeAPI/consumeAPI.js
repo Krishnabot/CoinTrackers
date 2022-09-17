@@ -1,16 +1,11 @@
-import axios from "axios";
-import { createAsyncThunk } from "@reduxjs/toolkit";
+import axios from 'axios';
+import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const narutoURL = "https://api.jikan.moe/v3/search/anime?q=naruto";
-const LOADING = "anime/naruto";
-const fetchAnime = createAsyncThunk(LOADING, async () => {
-  const response = await axios.get(narutoURL);
-  const { data } = response;
-  const Data = Object.keys(data).map((key) => ({
-    id: key,
-    ...data[key][0],
-  }));
-  return Data;
+const coinsAPI = 'https://api.coinlore.net/api/tickers/?start=0&limit=52';
+const FETCHING = 'coins/fetching';
+const fetchCoins = createAsyncThunk(FETCHING, async () => {
+  const response = await axios.get(coinsAPI);
+  return response.data;
 });
 
-export { fetchAnime };
+export default fetchCoins;
