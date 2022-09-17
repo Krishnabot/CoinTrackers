@@ -1,12 +1,36 @@
-# Getting Started with Create React App
+# Coin Trackers
+Built with React and Redux,åç Coin Tracker provides real time market-based information and statistics about the top 52 cryptocurrencies in the market. It is compatible in desktop and mobbuile devices. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
 
-## Available Scripts
+- React [Create React App](https://github.com/facebook/create-react-app)
+- Redux 
+- Axiom 
+
+## Resources
+- [Postman API Platform](https://www.postman.com/)
+- [Coin Lore](https://www.coinlore.com/cryptocurrency-data-api)
+
+## Project SnapShot
+![coin-snapshot-1](https://user-images.githubusercontent.com/40334904/190860012-0b4df138-e994-4698-9c2e-31b86a6e70c7.png)
+![coin-snapshot-2](https://user-images.githubusercontent.com/40334904/190860076-c49ca487-5f18-4141-92c2-e19728856927.png)
+
+# Live Description
+[loom Video](https://www.loom.com/share/d1c5530fdf164a588cd21c3812b79e38)
+
+## Live Demo 
+
+[Live Demo of the Site](https://zingy-eclair-341d70.netlify.app/)
+
+## Getting Started 
+
+To Clone The Repository in your Local Machine, run:
+
+#### `https://github.com/Krishnabot/CoinTrackers.git`
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +38,41 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👤 **Krishna**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@Krishnabot](https://github.com/Krishnabot)
+- Twitter: [@last_matrix](https://twitter.com/last_matrix)
+- LinkedIn: [@krishnabot](https://www.linkedin.com/in/krishnabot/)
+- HackerRank [@KrishnaBot](https://www.hackerrank.com/KrishnaBot)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+Contributions, issues, and feature requests are welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to check the [issues page](https://github.com/Krishnabot/CoinTrackers/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
+- [Images](https://www.shutterstock.com/discover/on-demand-image-0722?c3apidt=p15782295645&gclid=CjwKCAjw4JWZBhApEiwAtJUN0DgoXFYUDHD2f7f1dGWlDZXyhzWS0Wo9WJ4Dc8lt2NbQm3KofqfCThoCLoYQAvD_BwE&gclsrc=aw.ds&kw=shutterstock)
+- [Original design idea by Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
